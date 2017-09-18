@@ -256,6 +256,21 @@ color: #ECEBEB;
 
 }
 
+.intro-contact {
+	height: 100%; /* Full PAge */
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+	color: #f8f8f8;
+	/*background: url('http://static6.businessinsider.com/image/570ba41252bcd020008bbce5-1200/take-a-helicopter-flight-to-the-foot-of-mount-everest-where-youll-be-served-breakfast-at-yeti-mountain-home-one-of-the-worlds-highest-lodges-you-can-book-the-tour-through-companies-like-nepal-myths-and-mountain-trails.jpgg') no-repeat center center;*/
+    background: url(../img/contact.jpg) no-repeat center center;
+   
+	background-size: cover;
+    text-align: center;
+    opacity: 100%;
+
+}
+
+
 .intro-message {
 	position: relative;
 	padding-top: 12%;
@@ -1075,6 +1090,17 @@ color: #ECEBEB;
 			text-align: center;
 			background-color: #34495e;
 		}
+		.intro-contact {
+			height: 100%;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			color: #f8f8f8;
+		    background-image: none; 
+			background-size: cover;
+			text-align: center;
+			background-color: #34495e;
+		}
+		
 		
 		h1, .h1 {
 			font-size: 50px;
