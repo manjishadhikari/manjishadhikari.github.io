@@ -1,7 +1,4 @@
-#Flatfy - Theme | New Version!
+Website that has static support at engineerexperiments.me or manjishadhikari.github.io
+and php and database interaction support at madhikari.rf.gd
 
-##Responsive Mobile & Flat Design 
-Own Carousel & Bootstrap Framework CSS 
-Font Icon Svg & Animate
-
-Theme made by [Andrea Galanti](http://www.andreagalanti.it/flatfy.php)
+#Flatfy - Theme 
