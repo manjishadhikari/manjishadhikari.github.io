@@ -254,9 +254,11 @@
 								<div>
 									<div class="content-style-form content-style-form-4 ">
 										<h2 class="morph-clone">Subscribe to our Newsletter</h2>
-										<form>
-											<p><label>Your Email Address</label><input type="text"/></p>
-											<p><button>Subscribe me</button></p>
+										<form role="form" action="subscribe.php" method="post">
+											
+											<p><label>Your Email Address</label><input type="text" name="InputEmail" id="InputEmail"></p>
+											<input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
+											 <p><button>Subscribe me</button></p> 
 										</form>
 									</div>
 								</div>
