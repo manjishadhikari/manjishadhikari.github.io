@@ -20,6 +20,20 @@ echo $email;
 echo "\n";
 */
 
+//Sendin email saying thank you for filling the form
+//$subject = 'Mannjish\'s Website';
+//$message = 'Thank you for filling the form ';
+//$headers = "From: webmaster@madhikari.rf.gd"; \\ . "\r\n" .
+   // 'Reply-To: $email' . "\r\n" .
+    //'X-Mailer: PHP/' . phpversion();
+
+//mail($email, $subject, $message,$headers);
+//echo "Mail sent ";
+//echo $email;
+//echo $subject;
+//echo $headers;
+
+//Saving information to database
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
